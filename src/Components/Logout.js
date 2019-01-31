@@ -10,8 +10,6 @@ class Logout extends Component {
 	}
 
 	render() {
-		  localStorage.removeItem('username')
-          localStorage.removeItem('password')
 	    	return (<img src={image} className="App-logo" alt="logo" />);
 			
 		}
